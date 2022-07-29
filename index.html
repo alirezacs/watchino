@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Bootstrap Css Link -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+    <!-- Bootstrap Css Link -->
+
+    <!-- Font Awesome Css Link -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css">
+    <!-- Font Awesome Css Link -->
+
+    <!-- Swiper Css Link -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <!-- Swiper Css Link -->
+
+    <!-- Main Css Link -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Main Css Link -->
+
+</head>
+
+<body>
+    
+    <div class="main" id="main">
+
+        <!-- Header Section -->
+        <section class="header">
+            <div class="container-lg">
+                <div class="row h-100">
+                    <!-- Header Logo -->
+                    <div class="header-logo col-9 col-md-4">
+                        <a href="#">
+                            <img src="images/web-logo.png" alt="Website Logo">
+                            <div>
+                                <b style="display: block;">واچینو</b>
+                                <span>راحت فیلم و سریال ببین</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Header Menu -->
+                    <div class="header-menu col-md-5 d-none d-md-flex">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    سریال
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    فیلم
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">درباره ما</a>
+                            </li>
+                            <li>
+                                <a href="#">ارتباط با ما</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Responsive Menu Button -->
+                    <div class="header-menu-responsive-btn d-md-none col-3">
+                        <a href="#" id="header-menu-responsive-btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+
+                    <!-- Header Panel -->
+                    <div class="header-panel col-3 d-none d-md-flex">
+                        <button class="btn btn-success btn-sm">خرید اشتراک</button>
+                        <a href="#" class="btn btn-secondary btn-sm mx-2">ورود</a>
+                        <a href="#" class="header-panel-search"><i class="fa-solid fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Responsive Menu -->
+            <div class="header-menu-responsive d-md-none" id="header-menu-responsive">
+                <div class="container position-relative">
+
+                    <!-- Header Menu Responsive ==> Close -->
+                    <div class="header-menu-responsive-close">
+                        <a href="#" id="header-menu-responsive-close-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                    </div>
+
+                    <!-- Header Menu Responsive ==> Logo -->
+                    <div class="header-menu-responsive-logo">
+                        <a href="#">
+                            <img src="images/web-logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <!-- Header Responsive Menu ==> List -->
+                    <div class="header-menu-responsive-menu">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    سریال
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    فیلم
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    دراباره ما
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    ارتباط با ما
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Header Responsive Menu ==> Footer -->
+                    <div class="header-menu-responsive-menu-footer">
+                        <div class="header-menu-responsive-menu-footer-subscription my-2">
+                            <button class="btn btn-success w-100">خرید اشتراک</button>
+                        </div>
+                        <div class="header-menu-responsive-menu-footer-login my-2">
+                            <button class="btn btn-secondary w-100">ورود</button>
+                        </div>
+                        <div class="header-menu-responsive-menu-footer-searchbox">
+                            <form action="">
+                                <input type="text" placeholder="دنبال چی میگردی؟">
+                                <button class="header-menu-responsive-menu-footer-searchbox-submit">
+                                    <i class="fa-solid fa-search"></i> 
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+        <!-- Header Section -->
+
+        <!-- Banner Section -->
+        <section class="banner">
+            <!-- Banner Forground ===> Black Section -->
+            <div class="banner-forground">
+            </div>
+            <!-- Banner Forground ===> Black Section -->
+
+            <!-- Banner Content ===> Movie Item -->
+            <div class="banner-slider-container">
+                
+                <div class="banner-movie-item" id="banner-movie-item">
+                    <div class="banner-content">
+                        <!-- Movie Image -->
+                        <div class="banner-content-image">
+                            <img src="images/mr-robot.jpg" alt="Movie Banner">
+                        </div>
+                        <!-- Movie Image -->
+        
+                        <!-- Movie Information -->
+                        <div class="banner-content-movie">
+                            <div class="container">
+                                <div class="row h-100">
+                                    <!-- Movie Poster -->
+                                    <div class="banner-content-movie-poster col-4 d-none d-md-flex" id="banner-content-movie-poster">
+                                        <div class="banner-content-movie-poster-wrapper">
+                                            <img src="images/mr-robot-poster.jpg" alt="Movie Poster">
+                                        </div>
+                                        <div class="banner-content-movie-poster-show" id="banner-content-movie-poster-show">
+                                            <a href="#" id="banner-content-movie-poster-show-btn" class="banner-content-movie-poster-show-btn">
+                                                <i class="fas fa-play"></i>
+                                            </a>
+                                            <span>تماشای تریلر</span>
+                                        </div>
+                                    </div>
+                                    <!-- Movie Poster -->
+        
+                                    <!-- Movie Information -->
+                                    <div class="banner-content-movie-info col-8">
+                                        <!-- Movie Name -->
+                                        <div class="banner-content-movie-info-name">
+                                            <a href="#">
+                                                <h1>Mr Robot</h1>
+                                            </a>
+                                        </div>
+                                        <!-- Movie Name -->
+                                        
+                                        <!-- Movie Acters -->
+                                        <div class="banner-content-movie-info-acters">
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                        </div>
+                                        <!-- Movie Acters -->
+        
+                                        <!-- Movie Director -->
+                                        <div class="banner-content-movie-info-director">
+                                            کارگردان : <span>علیرضا مردانی</span>
+                                        </div>
+                                        <!-- Movie Director -->
+        
+                                        <!-- Movie Description -->
+                                        <div class="banner-content-movie-info-description">
+                                            <p>
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                                            </p>
+                                        </div>
+                                        <!-- Movie Description -->
+        
+                                        <!-- IMDB Info -->
+                                        <div class="banner-content-movie-info-imdb">
+                                            <div class="banner-content-movie-info-imdb-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+                                            <div class="banner-content-movie-info-imdb-score mt-3">
+                                                <i class="fa-brands fa-imdb"></i>
+                                                <span style="font-size: 18px;">
+                                                    <span style="color: #e1b400; font-size: 20px;">7.5</span>/10
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- IMDB Info -->
+        
+                                        <!-- Watching Buttons -->
+                                        <div class="banner-content-movie-info-watch">
+                                            <button class="banner-content-movie-info-watch-btn">
+                                                تماشا
+                                            </button>
+                                        </div>
+                                        <!-- Watching Buttons -->
+        
+        
+                                    </div>
+                                    <!-- Movie Information -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Movie Information -->
+        
+                        <!-- Movie Trailer -->
+                        <div class="banner-content-movie-trailer" id="banner-content-movie-trailer">
+                            <button class="banner-content-movie-trailer-close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <video controls width="800" id="banner-content-movie-trailer-video">
+                                <source src="video/mr-robot-trailer.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- Movie Trailer -->
+        
+                    </div>
+                </div>
+
+                <div class="banner-movie-item" id="banner-movie-item">
+                    <div class="banner-content">
+                        <!-- Movie Image -->
+                        <div class="banner-content-image">
+                            <img src="images/interstaller.jpg" alt="Movie Banner">
+                        </div>
+                        <!-- Movie Image -->
+        
+                        <!-- Movie Information -->
+                        <div class="banner-content-movie">
+                            <div class="container">
+                                <div class="row h-100">
+                                    <!-- Movie Poster -->
+                                    <div class="banner-content-movie-poster col-4 d-none d-md-flex" id="banner-content-movie-poster">
+                                        <div class="banner-content-movie-poster-wrapper">
+                                            <img src="images/interstaller-poster.jpg" alt="Movie Poster">
+                                        </div>
+                                        <div class="banner-content-movie-poster-show" id="banner-content-movie-poster-show">
+                                            <a href="#" id="banner-content-movie-poster-show-btn" class="banner-content-movie-poster-show-btn">
+                                                <i class="fas fa-play"></i>
+                                            </a>
+                                            <span>تماشای تریلر</span>
+                                        </div>
+                                    </div>
+                                    <!-- Movie Poster -->
+        
+                                    <!-- Movie Information -->
+                                    <div class="banner-content-movie-info col-8">
+                                        <!-- Movie Name -->
+                                        <div class="banner-content-movie-info-name">
+                                            <a href="#">
+                                                <h1>Mr Robot</h1>
+                                            </a>
+                                        </div>
+                                        <!-- Movie Name -->
+                                        
+                                        <!-- Movie Acters -->
+                                        <div class="banner-content-movie-info-acters">
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                        </div>
+                                        <!-- Movie Acters -->
+        
+                                        <!-- Movie Director -->
+                                        <div class="banner-content-movie-info-director">
+                                            کارگردان : <span>علیرضا مردانی</span>
+                                        </div>
+                                        <!-- Movie Director -->
+        
+                                        <!-- Movie Description -->
+                                        <div class="banner-content-movie-info-description">
+                                            <p>
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                                            </p>
+                                        </div>
+                                        <!-- Movie Description -->
+        
+                                        <!-- IMDB Info -->
+                                        <div class="banner-content-movie-info-imdb">
+                                            <div class="banner-content-movie-info-imdb-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+                                            <div class="banner-content-movie-info-imdb-score mt-3">
+                                                <i class="fa-brands fa-imdb"></i>
+                                                <span style="font-size: 18px;">
+                                                    <span style="color: #e1b400; font-size: 20px;">7.5</span>/10
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- IMDB Info -->
+        
+                                        <!-- Watching Buttons -->
+                                        <div class="banner-content-movie-info-watch">
+                                            <button class="banner-content-movie-info-watch-btn">
+                                                تماشا
+                                            </button>
+                                        </div>
+                                        <!-- Watching Buttons -->
+        
+        
+                                    </div>
+                                    <!-- Movie Information -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Movie Information -->
+        
+                        <!-- Movie Trailer -->
+                        <div class="banner-content-movie-trailer" id="banner-content-movie-trailer">
+                            <button class="banner-content-movie-trailer-close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <video controls width="800" id="banner-content-movie-trailer-video">
+                                <source src="video/mr-robot-trailer.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- Movie Trailer -->
+        
+                    </div>
+                </div>
+
+                <div class="banner-movie-item" id="banner-movie-item">
+                    <div class="banner-content">
+                        <!-- Movie Image -->
+                        <div class="banner-content-image">
+                            <img src="images/tenet.jpg" alt="Movie Banner">
+                        </div>
+                        <!-- Movie Image -->
+        
+                        <!-- Movie Information -->
+                        <div class="banner-content-movie">
+                            <div class="container">
+                                <div class="row h-100">
+                                    <!-- Movie Poster -->
+                                    <div class="banner-content-movie-poster col-4 d-none d-md-flex" id="banner-content-movie-poster">
+                                        <div class="banner-content-movie-poster-wrapper">
+                                            <img src="images/tenet-poster.jpeg  " alt="Movie Poster">
+                                        </div>
+                                        <div class="banner-content-movie-poster-show" id="banner-content-movie-poster-show">
+                                            <a href="#" id="banner-content-movie-poster-show-btn" class="banner-content-movie-poster-show-btn">
+                                                <i class="fas fa-play"></i>
+                                            </a>
+                                            <span>تماشای تریلر</span>
+                                        </div>
+                                    </div>
+                                    <!-- Movie Poster -->
+        
+                                    <!-- Movie Information -->
+                                    <div class="banner-content-movie-info col-8">
+                                        <!-- Movie Name -->
+                                        <div class="banner-content-movie-info-name">
+                                            <a href="#">
+                                                <h1>Mr Robot</h1>
+                                            </a>
+                                        </div>
+                                        <!-- Movie Name -->
+                                        
+                                        <!-- Movie Acters -->
+                                        <div class="banner-content-movie-info-acters">
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                        </div>
+                                        <!-- Movie Acters -->
+        
+                                        <!-- Movie Director -->
+                                        <div class="banner-content-movie-info-director">
+                                            کارگردان : <span>علیرضا مردانی</span>
+                                        </div>
+                                        <!-- Movie Director -->
+        
+                                        <!-- Movie Description -->
+                                        <div class="banner-content-movie-info-description">
+                                            <p>
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                                            </p>
+                                        </div>
+                                        <!-- Movie Description -->
+        
+                                        <!-- IMDB Info -->
+                                        <div class="banner-content-movie-info-imdb">
+                                            <div class="banner-content-movie-info-imdb-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+                                            <div class="banner-content-movie-info-imdb-score mt-3">
+                                                <i class="fa-brands fa-imdb"></i>
+                                                <span style="font-size: 18px;">
+                                                    <span style="color: #e1b400; font-size: 20px;">7.5</span>/10
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- IMDB Info -->
+        
+                                        <!-- Watching Buttons -->
+                                        <div class="banner-content-movie-info-watch">
+                                            <button class="banner-content-movie-info-watch-btn">
+                                                تماشا
+                                            </button>
+                                        </div>
+                                        <!-- Watching Buttons -->
+        
+        
+                                    </div>
+                                    <!-- Movie Information -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Movie Information -->
+        
+                        <!-- Movie Trailer -->
+                        <div class="banner-content-movie-trailer" id="banner-content-movie-trailer">
+                            <button class="banner-content-movie-trailer-close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <video controls width="800" id="banner-content-movie-trailer-video">
+                                <source src="video/mr-robot-trailer.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- Movie Trailer -->
+        
+                    </div>
+                </div>
+
+                <div class="banner-movie-item" id="banner-movie-item">
+                    <div class="banner-content">
+                        <!-- Movie Image -->
+                        <div class="banner-content-image">
+                            <img src="images/tenet.jpg" alt="Movie Banner">
+                        </div>
+                        <!-- Movie Image -->
+        
+                        <!-- Movie Information -->
+                        <div class="banner-content-movie">
+                            <div class="container">
+                                <div class="row h-100">
+                                    <!-- Movie Poster -->
+                                    <div class="banner-content-movie-poster col-4 d-none d-md-flex" id="banner-content-movie-poster">
+                                        <div class="banner-content-movie-poster-wrapper">
+                                            <img src="images/tenet-poster.jpeg  " alt="Movie Poster">
+                                        </div>
+                                        <div class="banner-content-movie-poster-show" id="banner-content-movie-poster-show">
+                                            <a href="#" id="banner-content-movie-poster-show-btn" class="banner-content-movie-poster-show-btn">
+                                                <i class="fas fa-play"></i>
+                                            </a>
+                                            <span>تماشای تریلر</span>
+                                        </div>
+                                    </div>
+                                    <!-- Movie Poster -->
+        
+                                    <!-- Movie Information -->
+                                    <div class="banner-content-movie-info col-8">
+                                        <!-- Movie Name -->
+                                        <div class="banner-content-movie-info-name">
+                                            <a href="#">
+                                                <h1>Mr Robot</h1>
+                                            </a>
+                                        </div>
+                                        <!-- Movie Name -->
+                                        
+                                        <!-- Movie Acters -->
+                                        <div class="banner-content-movie-info-acters">
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                            <!-- Movie Acter Items -->
+                                            <div class="banner-content-movie-info-acters-item">
+                                                <div class="banner-content-movie-info-acters-item-imagewrapper">
+                                                    <img src="images/mr-robot-poster.jpg" alt="">
+                                                </div>
+                                                <div class="banner-content-movie-info-acters-item-toggle">
+                                                    <span>علیرضا مردانی</span>
+                                                    <div class="banner-content-movie-info-acters-item-toggle-triangle">
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Movie Acter Items -->
+        
+                                        </div>
+                                        <!-- Movie Acters -->
+        
+                                        <!-- Movie Director -->
+                                        <div class="banner-content-movie-info-director">
+                                            کارگردان : <span>علیرضا مردانی</span>
+                                        </div>
+                                        <!-- Movie Director -->
+        
+                                        <!-- Movie Description -->
+                                        <div class="banner-content-movie-info-description">
+                                            <p>
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                                            </p>
+                                        </div>
+                                        <!-- Movie Description -->
+        
+                                        <!-- IMDB Info -->
+                                        <div class="banner-content-movie-info-imdb">
+                                            <div class="banner-content-movie-info-imdb-stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+                                            <div class="banner-content-movie-info-imdb-score mt-3">
+                                                <i class="fa-brands fa-imdb"></i>
+                                                <span style="font-size: 18px;">
+                                                    <span style="color: #e1b400; font-size: 20px;">7.5</span>/10
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <!-- IMDB Info -->
+        
+                                        <!-- Watching Buttons -->
+                                        <div class="banner-content-movie-info-watch">
+                                            <button class="banner-content-movie-info-watch-btn">
+                                                تماشا
+                                            </button>
+                                        </div>
+                                        <!-- Watching Buttons -->
+        
+        
+                                    </div>
+                                    <!-- Movie Information -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Movie Information -->
+        
+                        <!-- Movie Trailer -->
+                        <div class="banner-content-movie-trailer" id="banner-content-movie-trailer">
+                            <button class="banner-content-movie-trailer-close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <video controls width="800" id="banner-content-movie-trailer-video">
+                                <source src="video/mr-robot-trailer.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <!-- Movie Trailer -->
+        
+                    </div>
+                </div>
+
+            </div>
+            <!-- Banner Content ===> Movie Item -->
+
+            <!-- Slider Next Btn -->
+            <div class="banner-slider-prev-btn">
+                <a href="#" id="banner-slider-prev-btn">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+            <!-- Slider Next Btn -->
+            
+            <!-- Slider Prev Btn -->
+            <div class="banner-slider-next-btn">
+                <a href="#" id="banner-slider-next-btn">
+                    <i class="fa-solid fa-angle-left"></i>
+                </a>
+            </div>
+            <!-- Slider Prev Btn -->
+
+        </section>
+        <!-- Banner Section -->
+
+        <!-- Last Movies Section -->
+        <section class="last-movies" id="last-movies">
+            <div class="container swiper" id="last-movies-slider">
+                <div class="last-movies-header">
+                    <h2>جدیدترین فیلم ها</h2>
+                    <div class="divider" style="width: 50%;"></div>
+                    <div class="divider" style="width: 40%;"></div>
+                    <div class="divider" style="width: 30%;"></div>
+                </div>
+                <div class="last-movies-slider-wrapper swiper-wrapper">
+
+                    <!-- Last Movie Item -->
+                    <div class="last-movie-item swiper-slide">
+                        <!-- Last Movie Item ==> Background -->
+                        <div class="last-movie-item-background">
+                            <img src="images/interstaller-poster.jpg" alt="">
+                        </div>
+                        <!-- Last Movie Item ==> Contet -->
+                        <div class="last-movie-item-content">
+                            <!-- Last Movie Item ==> Name -->
+                            <div class="last-movie-item-content-name">
+                                <span>Interstaller | میان ستارگان</span>
+                            </div>
+
+                            <!-- Last Movie Item ==> IMDB -->
+                            <div class="last-movie-item-content-imdb">
+                                <div class="last-movie-item-content-imdb-star-wrapper">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="last-movie-item-content-imdb-icon-wrapper">
+                                    <i class="fa-brands fa-imdb"></i>
+                                    <span>8.5/10</span>
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Director -->
+                            <div class="last-movie-item-content-director">
+                                <h5>کارگردان : علیرضا مردانی</h5>
+                                <h6>تهیه کننده : علیرضا مردانی</h6>
+                            </div>
+
+                            <!-- Last Movie Item ==> Acters -->
+                            <div class="last-movie-item-content-acters">
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Buttons -->
+                            <div class="last-movie-item-content-footer">
+                                <button class="btn btn-success w-100">همین حالا تماشا کن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last Movie Item -->
+
+                    <!-- Last Movie Item -->
+                    <div class="last-movie-item swiper-slide">
+                        <!-- Last Movie Item ==> Background -->
+                        <div class="last-movie-item-background">
+                            <img src="images/interstaller-poster.jpg" alt="">
+                        </div>
+                        <!-- Last Movie Item ==> Contet -->
+                        <div class="last-movie-item-content">
+                            <!-- Last Movie Item ==> Name -->
+                            <div class="last-movie-item-content-name">
+                                <span>Interstaller | میان ستارگان</span>
+                            </div>
+
+                            <!-- Last Movie Item ==> IMDB -->
+                            <div class="last-movie-item-content-imdb">
+                                <div class="last-movie-item-content-imdb-star-wrapper">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="last-movie-item-content-imdb-icon-wrapper">
+                                    <i class="fa-brands fa-imdb"></i>
+                                    <span>8.5/10</span>
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Director -->
+                            <div class="last-movie-item-content-director">
+                                <h5>کارگردان : علیرضا مردانی</h5>
+                                <h6>تهیه کننده : علیرضا مردانی</h6>
+                            </div>
+
+                            <!-- Last Movie Item ==> Acters -->
+                            <div class="last-movie-item-content-acters">
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Buttons -->
+                            <div class="last-movie-item-content-footer">
+                                <button class="btn btn-success w-100">همین حالا تماشا کن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last Movie Item -->
+
+                    <!-- Last Movie Item -->
+                    <div class="last-movie-item swiper-slide">
+                        <!-- Last Movie Item ==> Background -->
+                        <div class="last-movie-item-background">
+                            <img src="images/interstaller-poster.jpg" alt="">
+                        </div>
+                        <!-- Last Movie Item ==> Contet -->
+                        <div class="last-movie-item-content">
+                            <!-- Last Movie Item ==> Name -->
+                            <div class="last-movie-item-content-name">
+                                <span>Interstaller | میان ستارگان</span>
+                            </div>
+
+                            <!-- Last Movie Item ==> IMDB -->
+                            <div class="last-movie-item-content-imdb">
+                                <div class="last-movie-item-content-imdb-star-wrapper">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="last-movie-item-content-imdb-icon-wrapper">
+                                    <i class="fa-brands fa-imdb"></i>
+                                    <span>8.5/10</span>
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Director -->
+                            <div class="last-movie-item-content-director">
+                                <h5>کارگردان : علیرضا مردانی</h5>
+                                <h6>تهیه کننده : علیرضا مردانی</h6>
+                            </div>
+
+                            <!-- Last Movie Item ==> Acters -->
+                            <div class="last-movie-item-content-acters">
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Buttons -->
+                            <div class="last-movie-item-content-footer">
+                                <button class="btn btn-success w-100">همین حالا تماشا کن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last Movie Item -->
+
+                    <!-- Last Movie Item -->
+                    <div class="last-movie-item swiper-slide">
+                        <!-- Last Movie Item ==> Background -->
+                        <div class="last-movie-item-background">
+                            <img src="images/interstaller-poster.jpg" alt="">
+                        </div>
+                        <!-- Last Movie Item ==> Contet -->
+                        <div class="last-movie-item-content">
+                            <!-- Last Movie Item ==> Name -->
+                            <div class="last-movie-item-content-name">
+                                <span>Interstaller | میان ستارگان</span>
+                            </div>
+
+                            <!-- Last Movie Item ==> IMDB -->
+                            <div class="last-movie-item-content-imdb">
+                                <div class="last-movie-item-content-imdb-star-wrapper">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="last-movie-item-content-imdb-icon-wrapper">
+                                    <i class="fa-brands fa-imdb"></i>
+                                    <span>8.5/10</span>
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Director -->
+                            <div class="last-movie-item-content-director">
+                                <h5>کارگردان : علیرضا مردانی</h5>
+                                <h6>تهیه کننده : علیرضا مردانی</h6>
+                            </div>
+
+                            <!-- Last Movie Item ==> Acters -->
+                            <div class="last-movie-item-content-acters">
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Buttons -->
+                            <div class="last-movie-item-content-footer">
+                                <button class="btn btn-success w-100">همین حالا تماشا کن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last Movie Item -->
+
+                    <!-- Last Movie Item -->
+                    <div class="last-movie-item swiper-slide">
+                        <!-- Last Movie Item ==> Background -->
+                        <div class="last-movie-item-background">
+                            <img src="images/interstaller-poster.jpg" alt="">
+                        </div>
+                        <!-- Last Movie Item ==> Contet -->
+                        <div class="last-movie-item-content">
+                            <!-- Last Movie Item ==> Name -->
+                            <div class="last-movie-item-content-name">
+                                <span>Interstaller | میان ستارگان</span>
+                            </div>
+
+                            <!-- Last Movie Item ==> IMDB -->
+                            <div class="last-movie-item-content-imdb">
+                                <div class="last-movie-item-content-imdb-star-wrapper">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="last-movie-item-content-imdb-icon-wrapper">
+                                    <i class="fa-brands fa-imdb"></i>
+                                    <span>8.5/10</span>
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Director -->
+                            <div class="last-movie-item-content-director">
+                                <h5>کارگردان : علیرضا مردانی</h5>
+                                <h6>تهیه کننده : علیرضا مردانی</h6>
+                            </div>
+
+                            <!-- Last Movie Item ==> Acters -->
+                            <div class="last-movie-item-content-acters">
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Buttons -->
+                            <div class="last-movie-item-content-footer">
+                                <button class="btn btn-success w-100">همین حالا تماشا کن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last Movie Item -->
+
+                    <!-- Last Movie Item -->
+                    <div class="last-movie-item swiper-slide">
+                        <!-- Last Movie Item ==> Background -->
+                        <div class="last-movie-item-background">
+                            <img src="images/interstaller-poster.jpg" alt="">
+                        </div>
+                        <!-- Last Movie Item ==> Contet -->
+                        <div class="last-movie-item-content">
+                            <!-- Last Movie Item ==> Name -->
+                            <div class="last-movie-item-content-name">
+                                <span>Interstaller | میان ستارگان</span>
+                            </div>
+
+                            <!-- Last Movie Item ==> IMDB -->
+                            <div class="last-movie-item-content-imdb">
+                                <div class="last-movie-item-content-imdb-star-wrapper">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="last-movie-item-content-imdb-icon-wrapper">
+                                    <i class="fa-brands fa-imdb"></i>
+                                    <span>8.5/10</span>
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Director -->
+                            <div class="last-movie-item-content-director">
+                                <h5>کارگردان : علیرضا مردانی</h5>
+                                <h6>تهیه کننده : علیرضا مردانی</h6>
+                            </div>
+
+                            <!-- Last Movie Item ==> Acters -->
+                            <div class="last-movie-item-content-acters">
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Buttons -->
+                            <div class="last-movie-item-content-footer">
+                                <button class="btn btn-success w-100">همین حالا تماشا کن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last Movie Item -->
+
+                    <!-- Last Movie Item -->
+                    <div class="last-movie-item swiper-slide">
+                        <!-- Last Movie Item ==> Background -->
+                        <div class="last-movie-item-background">
+                            <img src="images/interstaller-poster.jpg" alt="">
+                        </div>
+                        <!-- Last Movie Item ==> Contet -->
+                        <div class="last-movie-item-content">
+                            <!-- Last Movie Item ==> Name -->
+                            <div class="last-movie-item-content-name">
+                                <span>Interstaller | میان ستارگان</span>
+                            </div>
+
+                            <!-- Last Movie Item ==> IMDB -->
+                            <div class="last-movie-item-content-imdb">
+                                <div class="last-movie-item-content-imdb-star-wrapper">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="last-movie-item-content-imdb-icon-wrapper">
+                                    <i class="fa-brands fa-imdb"></i>
+                                    <span>8.5/10</span>
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Director -->
+                            <div class="last-movie-item-content-director">
+                                <h5>کارگردان : علیرضا مردانی</h5>
+                                <h6>تهیه کننده : علیرضا مردانی</h6>
+                            </div>
+
+                            <!-- Last Movie Item ==> Acters -->
+                            <div class="last-movie-item-content-acters">
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                                <div class="last-movie-item-content-acters-item">
+                                    <img src="images/AnneHathaway.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Last Movie Item ==> Buttons -->
+                            <div class="last-movie-item-content-footer">
+                                <button class="btn btn-success w-100">همین حالا تماشا کن</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Last Movie Item -->
+
+                </div>
+            </div>
+        </section>
+        <!-- Last Movies Section -->
+
+        <!-- Last Iran Mvoies Section -->
+        <section class="last-iran-movies">
+            <div class="container">
+                <div class="last-iran-movies-header">
+                    <h2>جدیترین های سینمای ایران</h2>
+                    <div class="divider" style="width: 50%;"></div>
+                    <div class="divider" style="width: 40%;"></div>
+                    <div class="divider" style="width: 30%;"></div>
+                </div>
+                <div class="last-iran-movies-body">
+                    <div class="row h-100 my-4">
+
+                        <!-- Last Iran Movie Item -->
+                        <div class="last-iran-movies-body-item-wrapper col-3">
+                            <div class="last-iran-movies-body-item">
+                                <div class="last-iran-movies-body-item-background">
+                                    <a href="#">
+                                        <img src="images/mr-robot-poster.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Last Iran Movie Item -->
+                         <div class="last-iran-movies-body-item-wrapper col-3">
+                            <div class="last-iran-movies-body-item">
+                                <div class="last-iran-movies-body-item-background">
+                                    <a href="#">
+                                        <img src="images/mr-robot-poster.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Last Iran Movie Item -->
+                         <div class="last-iran-movies-body-item-wrapper col-3">
+                            <div class="last-iran-movies-body-item">
+                                <div class="last-iran-movies-body-item-background">
+                                    <a href="#">
+                                        <img src="images/mr-robot-poster.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Last Iran Movie Item -->
+                         <div class="last-iran-movies-body-item-wrapper col-3">
+                            <div class="last-iran-movies-body-item">
+                                <div class="last-iran-movies-body-item-background">
+                                    <a href="#">
+                                        <img src="images/mr-robot-poster.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="row h-100 my-4">
+
+                        <!-- Last Iran Movie Item -->
+                        <div class="last-iran-movies-body-item-wrapper col-6">
+                            <div class="last-iran-movies-body-item">
+                                <div class="last-iran-movies-body-item-background">
+                                    <a href="#">
+                                        <img src="images/interstaller-poster.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Last Iran Movie Item -->
+                        <div class="last-iran-movies-body-item-wrapper col-6">
+                            <div class="last-iran-movies-body-item">
+                                <div class="last-iran-movies-body-item-background">
+                                    <a href="#">
+                                        <img src="images/interstaller-poster.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="row h-100 my-4">
+
+                        <!-- Last Iran Movie Item -->
+                        <div class="last-iran-movies-body-item-wrapper col-12">
+                            <div class="last-iran-movies-body-item">
+                                <div class="last-iran-movies-body-item-background">
+                                    <a href="#">
+                                        <img src="images/interstaller-poster.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="last-iran-movies-footer">
+                    <button class="btn btn-outline-light btn-xl">
+                        مشاهده بیشتر
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Last Iran Mvoies Section -->
+
+        <!-- Plans Section -->
+        <section class="plans">
+            <div class="container">
+                <div class="plans-header">
+                    <h2>اشتراک تهیه کنید...</h2>
+                    <div class="divider" style="width: 50%; background-color: #303841;"></div>
+                    <div class="divider" style="width: 40%; background-color: #303841;"></div>
+                    <div class="divider" style="width: 30%; background-color: #303841;"></div>
+                </div>
+                <div class="plans-body">
+                    <div class="row h-100">
+                        
+                        <!-- Plans Item -->
+                        <div class="plan-body-item-wrapper col-4">
+                            <div class="plan-body-item basic">
+                                <div class="plan-body-item-header">
+                                    <div class="plan-body-item-header-price">
+                                        <h2>
+                                            <span><h1>۴۰,۰۰۰,۰۰۰ تومان</h1></span>
+                                            <span>برای یک سال</span>
+                                        </h2>
+                                    </div>
+                                    <div class="plan-body-item-header-type">
+                                        <span><h3>پکیج طلایی</h3></span>
+                                    </div>
+                                </div>
+                                <div class="plan-body-item-body">
+                                    <table>
+                                        <tr >
+                                            <td><i class="fa-solid fa-check"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-check"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-xmark text-danger"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-xmark text-danger"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="plan-body-item-footer">
+                                    <button class="plan-body-item-footer-box">
+                                        خرید این پلن
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Plans Item -->
+                        <div class="plan-body-item-wrapper col-4">
+                            <div class="plan-body-item gold">
+                                <div class="plan-body-item-header">
+                                    <div class="plan-body-item-header-price">
+                                        <h2>
+                                            <span><h1>۴۰,۰۰۰,۰۰۰ تومان</h1></span>
+                                            <span>برای یک سال</span>
+                                        </h2>
+                                    </div>
+                                    <div class="plan-body-item-header-type">
+                                        <span><h3>پکیج طلایی</h3></span>
+                                    </div>
+                                </div>
+                                <div class="plan-body-item-body">
+                                    <table>
+                                        <tr >
+                                            <td><i class="fa-solid fa-check"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-check"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-check"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-check"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="plan-body-item-footer">
+                                    <button class="plan-body-item-footer-box">
+                                        خرید این پلن
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Plans Item -->
+                        <div class="plan-body-item-wrapper col-4">
+                            <div class="plan-body-item standard">
+                                <div class="plan-body-item-header">
+                                    <div class="plan-body-item-header-price">
+                                        <h2>
+                                            <span><h1>۴۰,۰۰۰,۰۰۰ تومان</h1></span>
+                                            <span>برای یک سال</span>
+                                        </h2>
+                                    </div>
+                                    <div class="plan-body-item-header-type">
+                                        <span><h3>پکیج طلایی</h3></span>
+                                    </div>
+                                </div>
+                                <div class="plan-body-item-body">
+                                    <table>
+                                        <tr >
+                                            <td><i class="fa-solid fa-check text-success"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-check text-success"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-check text-success"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-xmark text-danger"></i></td>
+                                            <td>تماشای تمام فیلم و سریال های واچینو</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="plan-body-item-footer">
+                                    <button class="plan-body-item-footer-box">
+                                        خرید این پلن
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Plans Section -->
+
+        <!-- Comments Section -->
+        <section class="comments">
+            <!-- Comments Header -->
+            <div class="comments-header">
+                <h2>نظرات کاربران واچینو</h2>
+                <div class="divider" style="background-color: #e1b400; width: 50%;"></div>
+                <div class="divider" style="background-color: #e1b400; width: 40%;"></div>
+                <div class="divider" style="background-color: #e1b400; width: 30%;"></div>
+            </div>
+
+            <!-- Comment Slider -->
+            <div class="comments-slider">
+                <div class="container d-flex justify-content-center">
+                    <div class="comments-slider-wrapper">
+                        <!-- Comment Item -->
+                        <div class="comment-item">
+                            <!-- Comment Item ==> User Avatar -->
+                            <div class="comment-item-user-avatar">
+                                <div class="comment-item-user-avatar-wrapper">
+                                    <img src="images/man-pic.webp" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Comment Item ==> Qoutes -->
+                            <div class="comment-item-qoute-right">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                            <div class="comment-item-qoute-left">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+
+                            <!-- Comment Item ==> User Name -->
+                            <div class="comment-item-username">
+                                <h4>علیرضا مردانی</h4>
+                                <span>Developer</span>
+                            </div>
+
+                            <!-- Comment Item ==> User Text -->
+                            <div class="comment-item-text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus recusandae harum eius, aspernatur facere architecto reprehenderit voluptatum! Eos sapiente esse, nobis omnis debitis perferendis. Itaque quibusdam repellendus impedit eos ut pariatur excepturi nostrum, illo doloremque culpa eveniet laboriosam exercitationem similique, quod quo. Libero voluptas asperiores eaque ipsum aliquam eveniet odit!</p>
+                            </div>
+
+                        </div>
+                        <!-- Comment Item -->
+                        <div class="comment-item">
+                            <!-- Comment Item ==> User Avatar -->
+                            <div class="comment-item-user-avatar">
+                                <div class="comment-item-user-avatar-wrapper">
+                                    <img src="images/mr-robot.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Comment Item ==> Qoutes -->
+                            <div class="comment-item-qoute-right">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                            <div class="comment-item-qoute-left">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+
+                            <!-- Comment Item ==> User Name -->
+                            <div class="comment-item-username">
+                                <h4>علیرضا مردانی</h4>
+                                <span>Developer</span>
+                            </div>
+
+                            <!-- Comment Item ==> User Text -->
+                            <div class="comment-item-text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus recusandae harum eius, aspernatur facere architecto reprehenderit voluptatum! Eos sapiente esse, nobis omnis debitis perferendis. Itaque quibusdam repellendus impedit eos ut pariatur excepturi nostrum, illo doloremque culpa eveniet laboriosam exercitationem similique, quod quo. Libero voluptas asperiores eaque ipsum aliquam eveniet odit!</p>
+                            </div>
+
+                        </div>
+                        <!-- Comment Item -->
+                        <div class="comment-item">
+                            <!-- Comment Item ==> User Avatar -->
+                            <div class="comment-item-user-avatar">
+                                <div class="comment-item-user-avatar-wrapper">
+                                    <img src="images/man-pic.webp" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Comment Item ==> Qoutes -->
+                            <div class="comment-item-qoute-right">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                            <div class="comment-item-qoute-left">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+
+                            <!-- Comment Item ==> User Name -->
+                            <div class="comment-item-username">
+                                <h4>علیرضا مردانی</h4>
+                                <span>Developer</span>
+                            </div>
+
+                            <!-- Comment Item ==> User Text -->
+                            <div class="comment-item-text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus recusandae harum eius, aspernatur facere architecto reprehenderit voluptatum! Eos sapiente esse, nobis omnis debitis perferendis. Itaque quibusdam repellendus impedit eos ut pariatur excepturi nostrum, illo doloremque culpa eveniet laboriosam exercitationem similique, quod quo. Libero voluptas asperiores eaque ipsum aliquam eveniet odit!</p>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Comment Slider Buttons -->
+                        <div class="comments-slider-btn">
+                            <div class="comments-slider-btn-next" id="comments-slider-btn-next">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="comments-slider-btn-prev" id="comments-slider-btn-prev">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Comments Section -->
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Jquery Link -->
+    <script src="js/jquery.js"></script>
+    <!-- Jquery Link -->
+
+    <!-- Bootstrap Js Link -->
+    <script src="css/bootstrap/js/bootstrap.js"></script>
+    <!-- Bootstrap Js Link -->
+
+    <!-- Swiper Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Swiper Js Link -->
+
+
+
+    <!-- Last Movies Slider -->
+    <script>
+        var swiper = new Swiper("#last-movies-slider", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true
+          }
+        });
+      </script>
+    <!-- Last Movies Slider -->
+
+    <!-- Main Js Link -->
+    <script src="js/main.js"></script>
+    <!-- Main Js Link -->
+
+    
+
+</body>
+
+</html>
