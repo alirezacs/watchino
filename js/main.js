@@ -170,4 +170,36 @@ $(document).ready(function(){
 
     /* Comments Slider */
 
+
+    /* Stop Sponsers Slider On Hover */
+
+    let sponsersSliderItem = document.querySelectorAll('.sponsers-slider .sponsers-slider-item').forEach(element => {
+        $(element).mouseenter((e) => {
+            $('#sponsers-slider').css('animation-play-state', 'paused');
+            e.target.classList.add('sponsers-slider-item-active');
+        });
+        $(element).mouseleave((e) => {
+            $('#sponsers-slider').css('animation-play-state', 'running');
+            e.target.classList.remove('sponsers-slider-item-active');
+            console.log('oke');
+
+        });
+    });;
+
+    $('#sponsers-slider').mouseleave(() => {
+        $('#sponsers-slider .sponsers-slider-item').removeClass('sponsers-slider-item-active');
+    });
+    
+
+    // sponsersSliderItem.forEach(element => {
+    //     element.addEventListener('mouseenter', () => {
+    //         console.log('Hello ');
+    //     });
+    // });
+
+
+
+    /* Stop Sponsers Slider On Hover */
+
+
 });
