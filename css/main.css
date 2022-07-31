@@ -1048,7 +1048,6 @@ body{
 .sponsers{
     width: 100%;
     padding: 40px 0 0;
-    margin-top: 30px;
     background-color: #26292d;
 }
 .sponsers-wrapper{
@@ -1115,4 +1114,37 @@ body{
     color: #e5e5e5
 }
 
+/* Application Section */
+.application{
+    width: 100%;
+    height: 80px;
+    padding: 0 15px;
+    margin-top: 30px;
+    background-color: #c1c1c1;
+    display: flex;
+}
 
+/* Application Section ==> Title */
+.application-title{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #303841
+}
+.application-title img{
+    width: 130px;
+}
+
+/* Application Section ==> Body */
+.application-body{
+    height: 100%;
+}
+
+/* Application Section Item */
+.application-body-item{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
