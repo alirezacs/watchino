@@ -1148,3 +1148,58 @@ body{
     align-items: center;
 
 }
+
+
+.footer{
+    background-color: #F6C90E;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5PX, 20px;
+}
+.menu-footer ul{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-footer{
+    display: flex;
+}
+.footer-social{
+   margin-right: 70px;
+}
+a{
+    text-decoration: none;
+    color: #3A4750;
+}
+
+.footer-slider img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5em 0 5em;
+}
+
+.telegram{
+    background-color: #3A4750;
+    width: 250px;
+    height: 90px;
+    border-radius: 1em;
+    display: flex;
+}
+
+.instagram{
+    background-color: #3A4750;
+    width: 250px;
+    height: 90px;
+    margin-top: 10px;
+    border-radius: 1em;
+}
+.inner_text_holder h5{
+    color: #eb8307;
+}
+
+.telegram span{
+    color: #eb8307;
+    margin: 20px;
+    margin-top: 50px;
+}
